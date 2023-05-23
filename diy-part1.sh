@@ -16,17 +16,17 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # KoolProxyR去广告插件
-git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
+#git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
 # 微信推送插件
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
+#git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 # 京东签到插件
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
 # adguardhome插件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-# Clash插件
-git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+# OpenClash插件
+#git clone https://github.com/vernesong/luci-app-openclash package/luci-app-openclash
 # SmartDNS插件
-git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 #强制关机插件
 git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
